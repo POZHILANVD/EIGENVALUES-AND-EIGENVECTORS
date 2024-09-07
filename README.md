@@ -18,7 +18,11 @@ Define the matrix 'a'
 Using the np.linalg.eig(),  we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
 ### Step 4: 
 Print the eigenvalues and eigenvectors
+
+
 ## Program:
+
+
 ```
 #Program to find the eigen values and eigen vectors.
 #Developed by: POZHILAN V D
@@ -29,6 +33,8 @@ a=[-2,2,-3],[2,1,-6],[-1,-2,0]
 values,vectors=np.linalg.eig(a)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
 ```
+
+
 ## Output:
 ![image](https://github.com/user-attachments/assets/6d3755c6-0f2f-4be2-a6ad-75ca8d5f521b)
 
